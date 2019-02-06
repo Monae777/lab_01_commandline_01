@@ -17,8 +17,12 @@ $ ls<ENTER>
 
 Copy and paste the output of ls below.
 ----------
-
-
+AMALogger20190109.log	Documents		New Unity Project	ipe.properties
+AMALogger20190130.log	Downloads		Pictures		isus
+Adlm			Library			Public			pymel.log
+Adobe			MPLABXProjects		QLData			xgen
+Applications		Movies			Riba-MTEC1003
+Desktop			Music			Things
 
 ==========
 2a. Type: 
@@ -27,20 +31,18 @@ $ ls D<TAB>
 
 What happens?  Describe it below.
 ----------
-
+nothing happened. 
 
 
 ==========
 2b. Press <TAB> one more time.  Copy and paste the output below.
 ----------
-
-
+Desktop/   Documents/ Downloads/ 
 
 ==========
 2c. Now press <ENTER>. Copy and paste the output below.
 ----------
-
-
+ls: D: No such file or directory
 
 ==========
 3.  Type:
@@ -49,7 +51,31 @@ $ ls -l Documents<ENTER>
 
 Copy and paste the first *two lines* of output below.
 ----------
-
+total 328
+drwxr-xr-x   8 student  staff     272 Jan 17  2018 Ableton
+drwxrwxrwx  14 student  staff     476 Jan 17  2018 Adobe
+drwxr-xr-x   4 student  staff     136 Aug  9  2017 Adobe Flash Builder 4.7
+drwxr-xr-x   3 student  staff     102 Aug 22  2016 Arduino
+drwxrwxrwx   3 student  staff     102 Jan 17  2017 Avid Projects
+drwxr-xr-x   4 student  staff     136 Aug 22  2016 Fritzing
+-rw-r--r--@  1 student  staff  163137 Feb  4 11:05 LogoTemp.ai
+drwxr-xr-x   2 student  staff      68 Aug 22  2016 MATLAB
+drwxr-xr-x   3 student  staff     102 Aug  9  2017 MakeHuman
+drwxr-xr-x   9 student  staff     306 Aug 22  2016 Max 7
+-rw-r--r--   1 student  staff    2112 Aug  2  2018 MuseLog.txt
+drwxr-xr-x   3 student  staff     102 Aug  9  2017 NewBlue
+drwxr-xr-x   3 student  staff     102 Jan 17  2018 Pd
+drwxr-xr-x  16 student  staff     544 Aug  6  2018 Pro Tools
+drwxr-xr-x   7 student  staff     238 Jan 17  2017 Processing
+drwxr-xr-x   2 student  staff      68 Aug 22  2016 REAPER Media
+drwxr-xr-x   9 student  staff     306 Jan 17  2018 Smaart v8
+drwxr-xr-x   4 student  staff     136 Jan 31 21:45 Temporary Work
+drwxr-xr-x   2 student  staff      68 Aug  2  2018 Unreal Projects
+drwxr-xr-x   4 student  staff     136 Jan 17  2018 Untitled
+drwxr-xr-x   2 student  staff      68 Aug 22  2016 eagle
+-rw-r--r--   1 student  staff       0 Aug 22  2016 iChats
+drwxr-xr-x   3 student  staff     102 Aug 22  2016 maya
+ent-v314-014:~ student$ 
 
 
 ==========
@@ -59,8 +85,13 @@ $ ls -a Documents
 
 Copy and paste the first *two lines* of output below.
 ----------
-
-
+.			Adobe Flash Builder 4.7	Max 7			Smaart v8
+..			Arduino			MuseLog.txt		Temporary Work
+.DS_Store		Avid Projects		NewBlue			Unreal Projects
+.TmThBHyOVRrMJdi0	Fritzing		Pd			Untitled
+.localized		LogoTemp.ai		Pro Tools		eagle
+Ableton			MATLAB			Processing		iChats
+Adobe			MakeHuman		REAPER Media		maya
 
 ==========
 5.  Type:
@@ -70,8 +101,13 @@ Copy and paste the first *two lines* of output below.
 What command was repeated?
 ----------
 
-
-
+.			Adobe Flash Builder 4.7	Max 7			Smaart v8
+..			Arduino			MuseLog.txt		Temporary Work
+.DS_Store		Avid Projects		NewBlue			Unreal Projects
+.TmThBHyOVRrMJdi0	Fritzing		Pd			Untitled
+.localized		LogoTemp.ai		Pro Tools		eagle
+Ableton			MATLAB			Processing		iChats
+Adobe			MakeHuman		REAPER Media		maya
 ==========
 6.  Type:
 
@@ -79,8 +115,29 @@ What command was repeated?
 
 What command was repeated?
 ----------
-
-
+	Adobe Flash Builder 4.7	Max 7			Smaart v8
+..			Arduino			MuseLog.txt		Temporary Work
+.DS_Store		Avid Projects		NewBlue			Unreal Projects
+.TmThBHyOVRrMJdi0	Fritzing		Pd			Untitled
+.localized		LogoTemp.ai		Pro Tools		eagle
+Ableton			MATLAB			Processing		iChats
+Adobe			MakeHuman		REAPER Media		maya
+ent-v314-014:~ student$ ls -a Documents
+.			Adobe Flash Builder 4.7	Max 7			Smaart v8
+..			Arduino			MuseLog.txt		Temporary Work
+.DS_Store		Avid Projects		NewBlue			Unreal Projects
+.TmThBHyOVRrMJdi0	Fritzing		Pd			Untitled
+.localized		LogoTemp.ai		Pro Tools		eagle
+Ableton			MATLAB			Processing		iChats
+Adobe			MakeHuman		REAPER Media		maya
+ent-v314-014:~ student$ ls -a Documents
+.			Adobe Flash Builder 4.7	Max 7			Smaart v8
+..			Arduino			MuseLog.txt		Temporary Work
+.DS_Store		Avid Projects		NewBlue			Unreal Projects
+.TmThBHyOVRrMJdi0	Fritzing		Pd			Untitled
+.localized		LogoTemp.ai		Pro Tools		eagle
+Ableton			MATLAB			Processing		iChats
+Adobe			MakeHuman		REAPER Media		maya
 
 ==========
 7.  Type:
@@ -89,8 +146,7 @@ $ ls /Vol<TAB><ENTER>
 
 What is the result of pressing tab?
 ----------
-
-
+Macintosh HD		Share 1 Read Only	firmwaresyncd.oy7QA3
 
 ==========
 8.  Type:
@@ -100,38 +156,38 @@ $ ls doesnotexist
 Copy and paste the output below.
 ----------
 
-
-
+ls: doesnotexist: No such file or directory
 ==========
 9.  What key do I press to go to the previous command?
 ----------
-
+up arrow
 
 
 ==========
 10.  Name two flags that we used in this exercise.
 ----------
-
+-a
+-l
 
 
 ==========
 11.  What key do I use to attempt to autocomplete a command or a file name?
 ----------
-
+tab tab
 
 
 ==========
 12.  What was the main command that we used throughout this exercise?
 ----------
 
-
+ls
 
 ==========
 13.  Name one argument that we passed to the command.
 ----------
 
 
-
+/user/monae/desktop
 ==========
 14.  Type:
 
@@ -140,17 +196,16 @@ $ foo<ENTER>
 Copy and paste the output below.
 ----------
 
-
-
+-bash: foo: command not found
 ==========
 15.  Type:
 
 <UP><ENTER>
 
 Copy and paste the output below.
+
 ----------
-
-
+-bash: foo: command not found
 
 ==========
 16.  In the following line....
@@ -159,3 +214,4 @@ $ ls -a Desktop
 
 What is the command, flag, argument, and prompt?
 ----------
+ls is the command -a is the flag Destop and prompt is $
